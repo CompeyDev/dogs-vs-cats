@@ -1,8 +1,7 @@
 {
-  "name": "fetch",
+  "name": "dogs-vs-cats",
   "version": "1.0.0",
-  "description": "fetch something code",
-  "main": "get.js",
+  "description": "war.",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.26.1",
