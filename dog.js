@@ -13,7 +13,7 @@ app.get("/", (req, res) => res.send(`<html><head><meta property="og:image" conte
 async function fetch(){
   const res = await axios.get('https://random.dog/woof.json');
   img = res.data.url;
-  console.log("Fetched new cat from", img)
+  console.log("Fetched new dog from", img)
 }
 
 setInterval(fetch, 1000);
